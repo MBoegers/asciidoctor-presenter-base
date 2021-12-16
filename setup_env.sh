@@ -7,7 +7,7 @@ TOOLS_DIR="bin"
 echo "Create tools directory: $TOOLS_DIR"
 mkdir $TOOLS_DIR
 
-echo "Download asciidcotor-reaveal.js v4.1.05"
+echo "Download asciidcotor-reaveal-js v4.1.0"
 wget --quiet --show-progress https://github.com/asciidoctor/asciidoctor-reveal.js/releases/download/v4.1.0/asciidoctor-revealjs-linux -P $TOOLS_DIR
 
 echo "Download reveal.js 3.9.2 from GitHub"
